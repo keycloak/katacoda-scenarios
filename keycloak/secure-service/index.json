@@ -1,0 +1,47 @@
+{
+  "title": "Securing a service",
+  "description": "Secure a NodeJS service, obtain a token and make a secure request",
+  "difficulty": "beginner",
+  "time": "5 minutes",
+  "details": {
+    "steps": [{
+      "title": "Securing the app",
+      "text": "step1.md",
+      "courseData": "set-env.sh",
+      "code": "env-init.sh"
+    },
+    {
+      "title": "Making requests",
+      "text": "step2.md"
+    },
+    {
+      "title": "Obtain a token and secure request",
+      "text": "step3.md"
+    }],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "client": [
+          {"file": "app.js", "target": "/root/service-nodejs"},
+          {"file": "package.json", "target": "/root/service-nodejs"},
+          {"file": "keycloak.json", "target": "/root/service-nodejs"},
+          {"file": "katacoda.json", "target": "/root"}
+      ]
+    }
+  },
+  "files": ["keycloak.json"],
+  "environment": {
+    "showdashboard": true,
+    "uilayout": "editor-terminal",
+    "uieditorpath": "/root/service-nodejs",
+    "hideintro": false,
+    "hidefinish": false
+},
+    "backend": {
+        "imageid": "centos"
+    }
+}

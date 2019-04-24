@@ -1,0 +1,22 @@
+{
+    "title": "Keycloak course",
+    "description": "A serie of scenarios that will teach you how to setup and use Keycloak",
+    "icon": "fa-katacoda",
+    "courses": [
+      {
+        "course_id": "configure-keycloak",
+        "title": "Configure Keycloak",
+        "description": "Set up your first Real, Role and User."
+      },
+      {
+        "course_id": "secure-service",
+        "title": "Secure a service",
+        "description": "Secure a service, obtain a token and make a secure request."
+      },
+      {
+        "course_id": "secure-application",
+        "title": "Secure an application",
+        "description": "Secure an application, log in and make a secure request."
+      }
+    ]
+}

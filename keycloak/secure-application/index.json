@@ -1,0 +1,53 @@
+{
+  "title": "Securing an application",
+  "description": "Secure an application, log in and make a secure request.",
+  "difficulty": "beginner",
+  "time": "5 minutes",
+  "details": {
+    "steps": [{
+      "title": "Securing the app",
+      "text": "step1.md",
+      "courseData": "set-env.sh",
+      "code": "env-init.sh"
+    },
+    {
+      "title": "Making requests",
+      "text": "step2.md"
+    },
+    {
+      "title": "Obtain a token and secure request",
+      "text": "step3.md"
+    }],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "client": [
+          {"file": "katacoda.json", "target": "/root"},
+          {"file": "web-client.json", "target": "/root"},
+          {"file": "service/app.js", "target": "/root/service-nodejs"},
+          {"file": "service/package.json", "target": "/root/service-nodejs"},
+          {"file": "service/keycloak.json", "target": "/root/service-nodejs"},
+          {"file": "application/index.html", "target": "/root/application"},
+          {"file": "application/keycloak.json", "target": "/root/application"},
+          {"file": "application/script/*.*", "target": "/root/application/script"},
+          {"file": "application/style/*.*", "target": "/root/application/style"}
+      ]
+    }
+  },
+  "files": ["keycloak.json"],
+  "environment": {
+    "showdashboard": true,
+    "dashboards": [{"name": "KC Console", "port": 8443},{"name": "Application", "port": 8000}],
+    "uilayout": "editor-terminal",
+    "uieditorpath": "/root/application",
+    "hideintro": false,
+    "hidefinish": false
+},
+    "backend": {
+        "imageid": "centos"
+    }
+}

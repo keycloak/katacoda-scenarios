@@ -1,0 +1,38 @@
+{
+  "title": "Configuring Keycloak",
+  "description": "Deploy Keycloak and create your first configured Realm",
+  "difficulty": "beginner",
+  "time": "5 minutes",
+  "details": {
+    "steps": [{
+      "title": "Creating the realm",
+      "text": "step1.md",
+      "courseData": "set-env.sh",
+      "code": "env-init.sh"
+    },
+    {
+      "title": "Creating a realm role",
+      "text": "step2.md"
+    },
+    {
+      "title": "Creating an user",
+      "text": "step3.md"
+    }],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "showdashboard": true,
+    "dashboards": [{"name": "Admin Console", "port": 8443}],
+        "uilayout": "terminal-iframe",
+        "hideintro": false,
+        "hidefinish": false
+},
+    "backend": {
+        "imageid": "centos"
+    }
+}
