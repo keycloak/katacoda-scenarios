@@ -5,10 +5,13 @@
   "time": "5 minutes",
   "details": {
     "steps": [{
-      "title": "Creating the realm",
-      "text": "step1.md",
-      "courseData": "set-env.sh",
-      "code": "env-init.sh"
+      "title": "Installing Keycloak",
+      "text": "setup.md",
+      "courseData": "set-env.sh"
+    },
+    {
+      "title": "Creating a realm",
+      "text": "step1.md"
     },
     {
       "title": "Creating a realm role",

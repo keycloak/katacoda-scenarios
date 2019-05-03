@@ -1,6 +1,4 @@
 Let's configure our Keycloak Server by creating a new Realm, a role and an user.
-For your convenience, a Keycloak Server has already been deployed and started. 
-The initial `admin` user has also been created for you. Please refer to our documentation: https://www.keycloak.org/docs/latest/server_installation/index.html if you want to reproduce this locally.  
 
 ## Login to the Keycloak Admin Console
 
