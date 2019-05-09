@@ -1,23 +1,12 @@
-## Obtain the token 
+## Your tokens 
 
-To make a secure request we need to obtain a token from Keycloak. For that, we are using the token endpoint and using the credentails of our `test` user : 
+Now that you are logged in, you can do the following :
+* See your ID token, Access Token and Refresh Token
+* See your Access Token in Base64 format, this format will be used to send secure requests
+* Call a secured backend service
 
-`export access_token=$(\
-    curl -X POST http://[[HOST_SUBDOMAIN]]-8443-[[KATACODA_HOST]].environments.katacoda.com/auth/realms/katacoda/protocol/openid-connect/token \
-    -H 'content-type: application/x-www-form-urlencoded' \
-    -d 'username=test&password=test&grant_type=password&client_id=admin-cli' | jq --raw-output '.access_token' \
- )`{{execute}}
 
- Here we store the `acess_token` in an environment variable : 
+## Call Secure Service
 
- `echo $access_token`{{execute}}
-
-## Make a secure request
-
-We can now use this token and pass it as header in our request. The header will have this format : 
-* **key** : `Authorization`
-* **value** : `Bearer ` + `$access_token`
-
-`curl -v -X GET \
-  http://[[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].environments.katacoda.com/service/secured \
-  -H "Authorization: Bearer "$access_token`{{execute}}
+Open the `Service Calls` menu and click the `Service Call` button. This will call a secured backend service (the same that we created in the previous scenario).
+You should obtain a result `Service Call Result: {"message":"secured"}`. 

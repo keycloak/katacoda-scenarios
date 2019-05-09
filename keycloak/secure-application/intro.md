@@ -2,7 +2,7 @@ Secure an application, getting redirect to the logi screen and call a secured se
 
 In this scenario, you will learn  : 
 * How to configure a Web Application.
-* How to log in to your applicatio. 
+* How to log in to your application. 
 * Have your application make a secure request to a secured service.
 
 
