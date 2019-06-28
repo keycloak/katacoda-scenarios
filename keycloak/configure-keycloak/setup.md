@@ -1,6 +1,6 @@
 ## Download the Keycloak distribution
 
-Let's start by downloading the Keycloak distribution
+Let's start by downloading the Keycloak distribution as follows:
 
 `curl https://downloads.jboss.org/keycloak/6.0.1/keycloak-6.0.1.zip --output keycloak-6.0.1.zip`{{execute}}
 
@@ -10,7 +10,7 @@ Once downloaded, unzip it :
 
 ## Create Initial Admin user
 
-First let's go to the `bin` folder of our Keycloak Server :
+First let's go to the `bin` folder of our Keycloak Server as follows:
 
 `cd keycloak-6.0.1/bin`{{execute}}
 
