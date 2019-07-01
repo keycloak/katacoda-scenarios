@@ -1,8 +1,8 @@
-Let's secure our first service. 
+Let's secure our first service.
 
 ## Configure our Service
 
-The service needs some configuration specific to keycloak. For most Keycloak adapters this will happen in a file named `keycloak.json` : 
+The service needs some configuration specific to keycloak. For most Keycloak adapters, this will happen in a file named `keycloak.json`:
 
 <pre class="file"  data-filename="keycloak.json" data-target="replace">
 {
@@ -16,19 +16,19 @@ The service needs some configuration specific to keycloak. For most Keycloak ada
 
 
 * **realm** : The `realm` in which this service belongs
-* **bearer-only** : This is a flag to indicate that this service will not perform any redirect and just accepts authenticated requests
-* **auth-server-url** : This is the `url` of our Keycloak instance. 
+* **bearer-only** : This is a flag to indicate that this service will not perform any redirects; it will only accept authenticated requests.
+* **auth-server-url** : This is the `url` of our Keycloak instance.
 
 ## Start the service
 
-Go to the service directory : 
+Go to the service directory:
 
 `cd /root/service-nodejs/`{{execute}}
 
-Install the service : 
+Install the service:
 
 `npm install`{{execute}}
 
-And run it : 
+And run it:
 
 `npm start`{{execute}}
