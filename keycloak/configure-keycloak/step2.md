@@ -1,5 +1,6 @@
-Now we need to create a realm role, on the left menu click on `Roles`, this will bring you to a list of existing roles.
-On the upper right of the table you should see a button `Add Role`, click it.
+Now we need to create a realm role.
 
-Give the Role a name, for instance `user` and save it, congratulations you have added a new Role to your Realm ! 
+On the left menu, click on `Roles`. You see a list of roles. On the upper right of the table, look for `Add Role` and click that button.
+
+Give the role a name, such as `user`, and save it. Congratulations! You have added a new role to your realm! 
 

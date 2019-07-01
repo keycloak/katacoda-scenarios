@@ -1,22 +1,19 @@
-The last step before we have a complete configured realm is to create an user. 
+The last step to complete the configuration of the realm is to create a user.
 
-On the left menu, click `Users` , that will bring you to a list of existing users. 
-On the right of the table, you should see an `Add user` button, click it. 
+On the left menu, click `Users`. You see a list of users. On the right of the table, look for `Add user`. Click that button.
 
-Only the username is mandatory, let's fill it with `test` and click `save`. 
+Only the username is mandatory, so let's fill in that field with `test` and click `save`.
 
-You are now on the details page of your newly created user. We still need to do 2 tasks : 
-* Give the user credentials
-* Assign the role `user` to our `test` user. 
+You are now on the details page of the new user. We still need to perform two tasks:
+* Give the user credentials.
+* Assign the role `user` to our `test` user.
 
-## Create initial Credentials
+## Create Initial Credentials
 
-Click on the tab `Credentials` and add a new password : `test` , confirm it. 
-You will also notice the `Temporary` checkbox, if this one is enabled, the user will have to chnage his password the first time he logs in. It's up to you if you want to keep it or for this lesson.
+Click on the `Credentials` tab and add a new password: `test`. Confirm the password. Notice the `Temporary` checkbox. If it is enabled, the user has to change this password at the first login. You can decide if you want to change that setting or leave it unchanged for this lesson. Click Reset Password.
 
-## Assign Realm Role to User
+## Assign the Realm Role to the User
 
-The last step is to assign the role `user` to our `test` user. 
-Click on the tab `Role Mappings` and in `Available Roles` you should see our `user` role. 
-Select it and push the button `Add selected`. 
-
+The last step is to assign the role `user` to our `test` user.
+Click on the tab `Role Mappings`. In `Available Roles`, you see the `user` role.
+Select it and click `Add selected`.

@@ -1,10 +1,10 @@
 ## Start Web Application
 
-Go to the application folder : 
+Go to the application folder:
 
-`cd /root/application`{{execute}} 
+`cd /root/application`{{execute}}
 
-And start the web server : 
+And start the web server:
 
 `python -m SimpleHTTPServer 8000`{{execute}}
 
@@ -14,5 +14,5 @@ Just click here: https://[[HOST_SUBDOMAIN]]-8000-[[KATACODA_HOST]].environments.
 
 ## Login
 
-In the op bar click the `login` button. You will be redirected to the login form.
-You can log with `test/test`.
+In the op bar click the `login` button. You are redirected to the login form.
+You can log in with `test/test`.
