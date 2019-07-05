@@ -14,5 +14,5 @@ Just click here: https://[[HOST_SUBDOMAIN]]-8000-[[KATACODA_HOST]].environments.
 
 ## Login
 
-In the op bar click the `login` button. You are redirected to the login form.
+In the top bar click the `login` button. You are redirected to the login form.
 You can log in with `test/test`.
