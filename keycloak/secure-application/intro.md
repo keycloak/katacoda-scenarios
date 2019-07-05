@@ -1,4 +1,4 @@
-Secure an application, getting redirect to the logi screen and call a secured service.
+Secure an application, getting redirect to the login screen and call a secured service.
 
 In this scenario, you will learn how to:
 * Configure a web application.
