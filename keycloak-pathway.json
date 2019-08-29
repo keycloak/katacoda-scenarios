@@ -6,7 +6,7 @@
       {
         "course_id": "configure-keycloak",
         "title": "Configure Keycloak",
-        "description": "Set up your first Real, Role and User."
+        "description": "Set up your first Realm, Role and User."
       },
       {
         "course_id": "secure-service",
