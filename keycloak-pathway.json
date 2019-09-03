@@ -1,6 +1,6 @@
 {
     "title": "Keycloak course",
-    "description": "A serie of scenarios that will teach you how to setup and use Keycloak",
+    "description": "A series of scenarios that will teach you how to setup and use Keycloak",
     "icon": "fa-katacoda",
     "courses": [
       {
