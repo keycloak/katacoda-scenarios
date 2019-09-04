@@ -5,7 +5,7 @@ To make a secure request, we need to obtain a token from Keycloak. We can use th
 `export access_token=$(\
     curl -X POST http://[[HOST_SUBDOMAIN]]-8443-[[KATACODA_HOST]].environments.katacoda.com/auth/realms/katacoda/protocol/openid-connect/token \
     -H 'content-type: application/x-www-form-urlencoded' \
-    -d 'username=test&password=test&grant_type=password&client_id=admin-cli' | jq --raw-output '.access_token' \
+    -d 'username=test&password=test&grant_type=password&client_id=katacoda-cli' | jq --raw-output '.access_token' \
  )`{{execute}}
 
  Here we store the `access_token` in an environment variable:
