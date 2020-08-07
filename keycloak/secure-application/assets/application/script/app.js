@@ -88,7 +88,7 @@ function serviceCallSimple() {
 
     oReq.onload = function () {
         if (oReq.readyState === oReq.DONE) {
-            if (oReq.status === 200) {
+            if (oReq.status === 200 || oReq.status === 403) {
                 document.getElementById('result').innerHTML = oReq.responseText
             }
         }

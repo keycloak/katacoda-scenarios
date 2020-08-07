@@ -23,8 +23,8 @@ The application needs some configuration specific to keycloak. For most Keycloak
 You can manually create the client in the Keycloak console.
 Go the Keycloak Web Console then open the `Clients` screen, click on `Create` and enter the following values:
 
-* **Client ID** : web-client
-* **Root URL** : https://[[HOST_SUBDOMAIN]]-8000-[[KATACODA_HOST]].environments.katacoda.com
+* **Client ID** : `web-client`{{copy}}
+* **Root URL** : `https://[[HOST_SUBDOMAIN]]-8000-[[KATACODA_HOST]].environments.katacoda.com`{{copy}}
 
 Click `save` and you are done.
 

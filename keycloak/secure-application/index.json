@@ -33,8 +33,8 @@
           {"file": "service/keycloak.json", "target": "/root/service-nodejs"},
           {"file": "application/index.html", "target": "/root/application"},
           {"file": "application/keycloak.json", "target": "/root/application"},
-          {"file": "application/script/*.*", "target": "/root/application/script"},
-          {"file": "application/style/*.*", "target": "/root/application/style"}
+          {"file": "application/script/app.js", "target": "/root/application/script"},
+          {"file": "application/style/grid.css", "target": "/root/application/style"}
       ]
     }
   },
